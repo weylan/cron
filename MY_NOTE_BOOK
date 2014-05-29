@@ -1,0 +1,17 @@
+先考察一些数据库
+1 mongdb
+2 redis
+3 memcache 可能有用
+
+考察一些技术
+1 share memory
+2 cron表达式
+3 zmq网络
+4 google protocol buffer的第三方rpc网络实现
+
+
+已经考察过的一些开源技术
+1 skynet 异步消息推送模型，以后可能有用，用的lua来驱动，性能问题不大
+	主要是我比较排斥lua
+
+2 tlbb 可以看看 sharemomory + mysql
